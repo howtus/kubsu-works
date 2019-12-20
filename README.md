@@ -8,7 +8,7 @@
 
 В этом репозитории всего 4 папки, каждая из которых соответствует определенному предмету.
 
-* Algorithms - Алгоритмы и анализ сложности
-* Java - Объектно-ориентированное программирование
-* Networks - Компьютеные сети
-* Web - Разработка пользовательских WEB-интерфейсов
+* [Algorithms](https://github.com/howtus/kubsu-works/tree/master/Algorithms "Перейти в папку") — Алгоритмы и анализ сложности
+* [Java](https://github.com/howtus/kubsu-works/tree/master/Java "Перейти в папку") — Объектно-ориентированное программирование
+* [Networks](https://github.com/howtus/kubsu-works/tree/master/Networks "Перейти в папку") — Компьютеные сети
+* [Web](https://github.com/howtus/kubsu-works/tree/master/Web "Перейти в папку") — Разработка пользовательских WEB-интерфейсов
