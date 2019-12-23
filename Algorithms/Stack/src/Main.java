@@ -2,17 +2,32 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Stack stack = new Stack(10);
-        stack.add(1);
-        stack.add(1);
-        stack.add(1);
-        stack.add(131);
-        stack.add(14234);
-        stack.add(132);
-        stack.add(1);
-        stack.add(1);
-        stack.add(-100);
-        stack.add(1);
-        stack._debug();
+        // Масств чисел
+        int[] array = {34,542,341,654,5756,643,-327,8432,19,1,113,-12,3213,4314,1545,216};
+        // Используем третий конструктор, чтобы не париться
+        Stack s3 = new Stack(array, 20);
+        // После каждого своего действия я буду вызывать метод .debug()
+        // Он позволит отслеживать изменение стека
+        // Некоторые методы не вызываю, потому что они и так вызываются в .debug()
+        s3.debug();
+        // Добавляем элемент 321 наверх стека
+        s3.add(321);
+        s3.debug();
+        // Удаляем элемент из стека
+        s3.remove();
+        s3.debug();
+        // Берем элемент из стека
+        int temp = s3.get();
+        System.out.println("Проверка метода .get() = " + temp);
+        s3.debug();
+        // Узнаем размер стека
+        temp = s3.size();
+        System.out.println("Проверка метода .size() = " + temp);
+        // Узнаем максимум стека
+        temp = s3.getMAX();
+        System.out.println("Проверка метода .getMAX() = " + temp);
+        // Деструктор
+        s3.close();
+        s3.debug();
     }
 }
