@@ -9,12 +9,26 @@ import static org.junit.Assert.*;
 
 public class StackTest {
 
-    @Test
-    public void close() {
-    }
-
+    // Тест для метода добавление элемента на верхушку стека
+    // Ожидаем что наверху стека число 110
     @Test
     public void add() {
+        int[] array = {1,2,3};
+        Stack stack = new Stack(array, 10);
+        int expected = 110;
+        stack.add(expected);
+        int actual = stack.get();
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    // Тест для метода добавление элемента на верхушку стека
+    // Ожидаем возвращение исключения
+    @Test (expected = StackOverflowError.class)
+    public void addWithException() throws StackOverflowError {
+        int[] array = {1,2,3};
+        Stack stack = new Stack(array);
+        stack.add(100);
     }
 
     // Тест для метода удаления элемента с верхушки стека
@@ -82,7 +96,8 @@ public class StackTest {
     // Ожидаем получить исключение
     @Test(expected = EmptyStackException.class)
     public void maxWithException() throws EmptyStackException {
-        // @TODO сделать тест с исключением для max
+        Stack stack = new Stack( 10);
+        int temp = stack.max();
     }
 
     // Тест для метода получения минимального элемента
@@ -100,6 +115,15 @@ public class StackTest {
         Assert.assertEquals(expected, actual);
     }
 
+    // Тест для метода получения минимального элемента
+    // Ожидаем получить исключение
+    @Test(expected = EmptyStackException.class)
+    public void minWithException() throws EmptyStackException {
+        Stack stack = new Stack( 10);
+        int temp = stack.min();
+    }
+
+    // Тест для метода замены среднего по индексу числа на 0 в стеке
     @Test
     public void replaceMiddle() {
         Stack stack = new Stack( 10);
@@ -111,6 +135,19 @@ public class StackTest {
         int expected = stack.get();
         expected = stack.get();
         int actual = 0;
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    // Тест для метода инвертирования стека
+    @Test
+    public void invert() {
+        int[] arr = {1,2,3,4,5};
+        Stack stack = new Stack(arr);
+
+        stack.invert();
+        int expected = 1;
+        int actual = stack.get();
 
         Assert.assertEquals(expected, actual);
     }

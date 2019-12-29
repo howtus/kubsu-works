@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="31791d46-92d3-4d44-9f9e-0ee641e5b467" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack/out/production/Stack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/out/production/Stack/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack/out/production/Stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/out/production/Stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stack/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/src/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UnitTest/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UnitTest/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UnitTest/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UnitTest/StackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,19 +38,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="835">
+              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
               <folding>
-                <element signature="e#2088#2089#0" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2183#2184#0" expanded="true" />
-                <element signature="e#2216#2217#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2310#2311#0" expanded="true" />
-                <element signature="e#2378#2379#0" expanded="true" />
-                <element signature="e#2404#2405#0" expanded="true" />
-                <element signature="e#3030#3031#0" expanded="true" />
-                <element signature="e#3078#3079#0" expanded="true" />
+                <element signature="e#2137#2138#0" expanded="true" />
+                <element signature="e#2172#2173#0" expanded="true" />
+                <element signature="e#2232#2233#0" expanded="true" />
+                <element signature="e#2265#2266#0" expanded="true" />
+                <element signature="e#2333#2334#0" expanded="true" />
+                <element signature="e#2359#2360#0" expanded="true" />
+                <element signature="e#2427#2428#0" expanded="true" />
+                <element signature="e#2453#2454#0" expanded="true" />
+                <element signature="e#3343#3344#0" expanded="true" />
+                <element signature="e#3391#3392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,16 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="88" column="50" lean-forward="true" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
-              <folding>
-                <element signature="method#remove#0;class#StackTest#0" />
-                <element signature="method#remove#1;class#StackTest#0" />
-                <element signature="method#get#0;class#StackTest#0" />
-                <element signature="method#get#1;class#StackTest#0" />
-                <element signature="method#max#0;class#StackTest#0" />
-                <element signature="method#maxWithException#0;class#StackTest#0" />
-              </folding>
+            <state relative-caret-position="351">
+              <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -87,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2126" />
     <option name="y" value="-17" />
     <option name="width" value="1552" />
@@ -99,8 +98,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,7 +123,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577211546307" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577653652053" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -152,22 +151,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest.remove">
-    <configuration name="StackTest.getWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StackTest.invert">
+    <configuration name="StackTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="getWithException" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.max" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.addWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="max" />
+      <option name="METHOD_NAME" value="addWithException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.invert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="METHOD_NAME" value="invert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.maxWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="METHOD_NAME" value="maxWithException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,40 +202,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.removeWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="removeWithException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.replaceMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="replaceMiddle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.StackTest.max" />
-      <item itemvalue="JUnit.StackTest.replaceMiddle" />
       <item itemvalue="JUnit.StackTest.remove" />
-      <item itemvalue="JUnit.StackTest.removeWithException" />
-      <item itemvalue="JUnit.StackTest.getWithException" />
+      <item itemvalue="JUnit.StackTest.maxWithException" />
+      <item itemvalue="JUnit.StackTest.addWithException" />
+      <item itemvalue="JUnit.StackTest.add" />
+      <item itemvalue="JUnit.StackTest.invert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest.invert" />
+        <item itemvalue="JUnit.StackTest.add" />
+        <item itemvalue="JUnit.StackTest.addWithException" />
+        <item itemvalue="JUnit.StackTest.maxWithException" />
         <item itemvalue="JUnit.StackTest.remove" />
-        <item itemvalue="JUnit.StackTest.removeWithException" />
-        <item itemvalue="JUnit.StackTest.getWithException" />
-        <item itemvalue="JUnit.StackTest.replaceMiddle" />
-        <item itemvalue="JUnit.StackTest.max" />
       </list>
     </recent_temporary>
   </component>
@@ -234,66 +233,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest_replaceMiddle - 2019.12.24 at 21h 03m 06s.xml">
-      <configuration name="StackTest.replaceMiddle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_replaceMiddle - 2019.12.24 at 21h 04m 24s.xml">
-      <configuration name="StackTest.replaceMiddle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_replaceMiddle - 2019.12.24 at 21h 04m 31s.xml">
-      <configuration name="StackTest.replaceMiddle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_remove - 2019.12.24 at 21h 05m 09s.xml">
-      <configuration name="StackTest.remove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_removeWithException - 2019.12.24 at 21h 10m 44s.xml">
-      <configuration name="StackTest.removeWithException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_removeWithException - 2019.12.24 at 21h 11m 03s.xml">
-      <configuration name="StackTest.removeWithException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_removeWithException - 2019.12.24 at 21h 11m 45s.xml">
-      <configuration name="StackTest.removeWithException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_getWithException - 2019.12.24 at 21h 12m 53s.xml">
-      <configuration name="StackTest.getWithException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_removeWithException - 2019.12.24 at 21h 13m 08s.xml">
-      <configuration name="StackTest.removeWithException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StackTest_remove - 2019.12.24 at 21h 14m 12s.xml">
       <configuration name="StackTest.remove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_maxWithException - 2019.12.29 at 23h 25m 12s.xml">
+      <configuration name="StackTest.maxWithException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_maxWithException - 2019.12.29 at 23h 25m 25s.xml">
+      <configuration name="StackTest.maxWithException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_maxWithException - 2019.12.29 at 23h 25m 34s.xml">
+      <configuration name="StackTest.maxWithException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_addWithException - 2019.12.29 at 23h 28m 09s.xml">
+      <configuration name="StackTest.addWithException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_add - 2019.12.29 at 23h 28m 19s.xml">
+      <configuration name="StackTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_add - 2019.12.29 at 23h 29m 30s.xml">
+      <configuration name="StackTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_add - 2019.12.29 at 23h 32m 20s.xml">
+      <configuration name="StackTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_invert - 2019.12.30 at 00h 02m 37s.xml">
+      <configuration name="StackTest.invert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_invert - 2019.12.30 at 00h 02m 45s.xml">
+      <configuration name="StackTest.invert" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -310,35 +310,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="835">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
           <folding>
-            <element signature="e#2088#2089#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2183#2184#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2378#2379#0" expanded="true" />
-            <element signature="e#2404#2405#0" expanded="true" />
-            <element signature="e#3030#3031#0" expanded="true" />
-            <element signature="e#3078#3079#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="e#3343#3344#0" expanded="true" />
+            <element signature="e#3391#3392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="88" column="50" lean-forward="true" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
-          <folding>
-            <element signature="method#remove#0;class#StackTest#0" />
-            <element signature="method#remove#1;class#StackTest#0" />
-            <element signature="method#get#0;class#StackTest#0" />
-            <element signature="method#get#1;class#StackTest#0" />
-            <element signature="method#max#0;class#StackTest#0" />
-            <element signature="method#maxWithException#0;class#StackTest#0" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
         </state>
       </provider>
     </entry>
