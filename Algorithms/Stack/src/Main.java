@@ -26,8 +26,10 @@ public class Main {
         // Узнаем максимум стека
         temp = s3.getMAX();
         System.out.println("Проверка метода .getMAX() = " + temp);
+        // Инвертируем стек
+        s3.invert();
+        s3.debug();
         // Деструктор
         s3.close();
-        s3.debug();
     }
 }

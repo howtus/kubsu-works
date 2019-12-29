@@ -67,7 +67,9 @@ public class Stack {
     public int get() throws EmptyStackException {
         if (this.isEmpty()) throw new EmptyStackException();
         top--;
-        return stack[top];
+        int temp = stack[top];
+        stack[top] = 0;
+        return temp;
     }
 
     // Проверить на переполненность
@@ -91,7 +93,9 @@ public class Stack {
     }
 
     // Получить максимальный элемент стека
-    public int max() {
+    // Если стек пуст, выкидываю исключение
+    public int max() throws EmptyStackException {
+        if (this.isEmpty()) throw new EmptyStackException();
         int max = stack[0];
         for (int i: stack) {
             if (i > max) {
@@ -102,7 +106,9 @@ public class Stack {
     }
 
     // Получить минимальный элемент стека
-    public int min() {
+    // Если стек пуст, выкидываю исключение
+    public int min() throws EmptyStackException {
+        if (this.isEmpty()) throw new EmptyStackException();
         int min = stack[0];
         for (int i: stack) {
             if (i < min) {
@@ -119,7 +125,16 @@ public class Stack {
         if (top >= 3) stack[top / 2] = 0;
     }
 
-    // @TODO Написать юнит тест для следующего задания
+    // Инвертировать стек
+    // Если пустой, просто завершаем метод
+    public void invert() {
+        if (this.isEmpty()) return;
+        for (int i = 0; i < top / 2; i++) {
+            int temp = stack[i];
+            stack[i] = stack[top - 1 - i];
+            stack[top - 1 - i] = temp;
+        }
+    }
 
     // Скрытый метод для проверки корректной работы стека
     // Просто выводит всю инфу об объекте
