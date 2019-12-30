@@ -12,11 +12,3 @@
 * [Java](https://github.com/howtus/kubsu-works/tree/master/Java "Перейти в папку") — Объектно-ориентированное программирование
 * [Networks](https://github.com/howtus/kubsu-works/tree/master/Networks "Перейти в папку") — Компьютеные сети
 * [Web](https://github.com/howtus/kubsu-works/tree/master/Web "Перейти в папку") — Разработка пользовательских WEB-интерфейсов
-
-### @TODO
-
-1. Сделать 9 задач по алгоритмам
-2. Сделать четвертую индивидуалку по ООП и скинуть все на почту
-3. Сдать пересказ по английскому
-4. Сдать диффуры
-5. Сдать матан
